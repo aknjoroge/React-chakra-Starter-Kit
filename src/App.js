@@ -1,7 +1,9 @@
+import logo from "./assets/reactlogo.png";
 function App() {
   return (
     <div>
-      <h2>Let's get started!</h2>
+      <img src={logo} alt="Logo" />
+      <h2>Get started with React</h2>
     </div>
   );
 }

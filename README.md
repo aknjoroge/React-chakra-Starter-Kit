@@ -10,7 +10,7 @@ cd starter-react-setup
 npm install
 ```
 
-### Versions
+### Core dependency versions
 
 - react: 17
 - react-dom: 17
@@ -29,3 +29,36 @@ To <br/>
 - npm start - start the development server
 - npm build - generate the app build files
 - npm test - run Jest tests
+
+### Not included extra libaries
+
+1. Redux:
+
+```
+npm i react-redux
+```
+
+2. Redux toolkit:
+
+```
+npm install @reduxjs/toolkit
+```
+
+3. React-Router:
+
+```
+npm install react-router-dom@5
+npm install react-router-dom@6
+```
+
+4. React-transition animatons:
+
+```
+npm install react-transition-group --save
+```
+
+5. firebase
+
+```
+npm install -g firebase-tools
+```
