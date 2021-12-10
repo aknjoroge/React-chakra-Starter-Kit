@@ -6,6 +6,7 @@ Simplified and static version of [ facebook/create-react-app](https://github.com
 
 ```
 git clone https://github.com/aknjoroge/starter-react-setup.git
+cd starter-react-setup
 npm install
 ```
 
