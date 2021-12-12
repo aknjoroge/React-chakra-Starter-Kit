@@ -62,3 +62,9 @@ npm install react-transition-group --save
 ```
 npm install -g firebase-tools
 ```
+
+6. Cookies 
+
+```
+https://github.com/reactivestack/cookies/tree/master/packages/react-cookie
+```
