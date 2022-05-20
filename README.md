@@ -1,70 +1,23 @@
-# A starter React App
+### React-Chakra
 
-Simplified and static version of [ facebook/create-react-app](https://github.com/facebook/create-react-app)
+### includes
 
-## Usage
+---
 
-```
-git clone https://github.com/aknjoroge/starter-react-setup.git
-cd starter-react-setup
-npm install
-```
-
-### Core dependency versions
-
-- react: 17
-- react-dom: 17
-- web-vitals: 0.2
-- react-scripts: 4
-- @testing-library [ jest-dom: 5 , react: 11, user-event: 12]
-
-To update to the latest versions, edit the package.json file and remove ~ in the dependencies and replace with ^, <br/>
-then npm install again ie <br/>
-` "react": "~17.0.1",` <br/>
-To <br/>
-` "react": "^17.0.1",`
-
-### Script
-
-- npm start - start the development server
-- npm build - generate the app build files
-- npm test - run Jest tests
-
-### Not included extra libaries
-
-1. Redux:
+#### configured to include Dark & Light Mode
 
 ```
-npm i react-redux
+ "@chakra-ui/icons": "^1.1.7",
+    "@chakra-ui/react": "^1.8.8",
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "framer-motion": "4.1.17",
 ```
 
-2. Redux toolkit:
+---
+
+### Installation
 
 ```
-npm install @reduxjs/toolkit
-```
-
-3. React-Router:
-
-```
-npm install react-router-dom@5
-npm install react-router-dom@6
-```
-
-4. React-transition animatons:
-
-```
-npm install react-transition-group --save
-```
-
-5. firebase
-
-```
-npm install -g firebase-tools
-```
-
-6. Cookies 
-
-```
-https://github.com/reactivestack/cookies/tree/master/packages/react-cookie
+npm install --legacy-peer-deps
 ```
